@@ -1,4 +1,12 @@
+export class HttpError extends Error {}
 export class RangeError extends Error {}
+
+// if (err instanceof HttpError) {
+
+// }
+// if (err instanceof RangeError) {
+
+// }
 
 function checkRange(value: number) {
   if (value < 0 || value > 100) {
